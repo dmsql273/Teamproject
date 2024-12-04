@@ -12,6 +12,7 @@ def main():
         print("3. 곱하기")
         print("4. 나누기")
         print("5. 지수계산 (x^y)")
+        print("6. 제곱근 계산 (√x)")
 
         choice = input("번호 : ")
 
@@ -31,6 +32,8 @@ def main():
                 print("결과:", x / y)
             elif choice == 5:
                 print("결과:", x ** y)
+            elif choice == 6:
+                print("결과:", x ** 0.5)
         else:
             print("잘못된 입력.")
 
