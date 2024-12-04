@@ -25,9 +25,15 @@ def main():
             elif choice == 2:
                 print("결과:", x - y)
             elif choice == 3:
+<<<<<<< HEAD
                 print("결과:")
             elif choice == 4:
                 print("결과:")
+=======
+                print("결과:", x * y)
+            elif choice == 4:
+                print("결과:", x / y)
+>>>>>>> 26b30453b3418cc33d6e8dcf068d26d3af5d3949
         else:
             print("잘못된 입력.")
 
